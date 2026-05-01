@@ -1,0 +1,23 @@
+package sub01;
+
+public class Car {
+	
+	//속성(멤버변수)
+	String brand;
+	String color;
+	int speed;
+	
+	//기능
+	public static void speedUp() {
+		
+	
+	}
+	
+	public static void speedDown() {
+		
+	}
+	
+	public static void show() {
+		
+	}
+}

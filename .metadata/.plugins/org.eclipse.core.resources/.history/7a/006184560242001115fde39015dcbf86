@@ -1,0 +1,28 @@
+package sub1;
+/*
+ * 날짜 : 2026/04/27
+ * 이름 : 허민재
+ * 내용 : Java 조건문 if 실습
+*/
+
+public class IfTest {
+	public static void main(String[] args) {
+		//if
+		int num1 = 1;
+		int num2 = 2;
+		
+		if(num1 < num2) {
+			// 조건이 참일때
+			System.out.println("num1은 num2 보다 작다");
+		}
+		
+		if(num1 > 1) {
+			// 조건이 거짓일때
+			System.out.println("num1은 1보다 크다.");
+		}
+		//if ~ else
+		
+		//if ~ else if ~ else
+		
+	}
+}

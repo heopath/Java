@@ -1,0 +1,12 @@
+package sub1;
+
+/*
+ 	날짜 : 2026/04/27
+	이름 : 김철학
+	내용 : 2장 Java qustn 실습
+ */
+public class VariableTest {
+	public static void main(String[] args) {
+		
+	}
+}

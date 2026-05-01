@@ -1,0 +1,20 @@
+package sub02;
+
+/*
+ * 날짜 : 2026/04/29
+ * 이름 : 허민재
+ * 내용 : Java 캡슐화 실습
+*/
+
+public class EncapsuleTest {
+	public static void main(String[] args) {
+		
+		//객체 생성 - (브랜드, 색상, 속도)
+		Car sonata = new Car("소나타", "흰색", 0);
+		
+		//객체 초기화
+		
+		
+		
+	}
+}

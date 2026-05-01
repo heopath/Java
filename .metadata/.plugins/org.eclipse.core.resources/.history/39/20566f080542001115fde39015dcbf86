@@ -1,0 +1,11 @@
+package sub2;
+/*
+ * 날짜 : 2026/04/27
+ * 이름 : 허민재
+ * 내용 : Java Switch 실습
+*/
+public class SwitchTest {
+	public static void main(String[] args) {
+		
+	}
+}

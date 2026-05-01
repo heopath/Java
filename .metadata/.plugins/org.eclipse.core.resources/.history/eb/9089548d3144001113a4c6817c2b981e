@@ -1,0 +1,15 @@
+package sub03;
+
+public class Car {
+	
+	// 속성(멤버변수)
+	private String name;
+	private int Speed;
+	private static int count;
+	
+	// 생성자
+	
+	
+	// 기능(멤버메서드)
+	
+}

@@ -1,0 +1,29 @@
+package sub01;
+
+/*
+ * 날짜 : 2026/04/29
+ * 이름 : 허민재
+ * 내용 : Java 클래스 실습
+*/
+
+public class ClassTest {
+	public static void main(String[] args) {
+		
+		//객체 생성 - 사용자 정의 타입
+		Car sonata = new Car();
+		
+		//객체 초기화
+		sonata.brand = "소나타";
+		sonata.color = "흰색";
+		sonata.speed = 0;
+		
+		//객체 활용
+		sonata.speedUp(80);
+		sonata.speedDown(20);
+		sonata.show();
+		
+		Car avante = new Car();
+		
+		
+	}
+}

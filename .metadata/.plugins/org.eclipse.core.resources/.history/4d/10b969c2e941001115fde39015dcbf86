@@ -1,0 +1,22 @@
+package sub1;
+
+/*
+ 	날짜 : 2026/04/27
+	이름 : 허민재
+	내용 : 2장 Java 변수 실습
+ */
+public class VariableTest {
+	public static void main(String[] args) {
+		
+		// 변수(Varialbe)
+		int a = 1;
+		int b = 3;
+		
+		System.out.println("a : " + a);
+		System.out.println("b : " + b);
+		
+		a = 4;
+		b = 7;
+		
+	}
+}

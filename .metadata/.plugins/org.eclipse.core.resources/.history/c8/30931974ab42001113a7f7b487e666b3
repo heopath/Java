@@ -1,0 +1,13 @@
+package sub5;
+
+/*
+ * 날짜 : 2026/04/28
+ * 이름 : 허민재
+ * 내용 : Java 오버로드 실습
+*/
+
+public class MethodOverloadTest {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package sub03;
+
+/*
+ * 날짜 : 2026/04/30
+ * 이름 : 허민재
+ * 내용 : Java 클래스 변수, 클래스 메서드 실습
+*/
+
+public class StaticTest {
+
+}

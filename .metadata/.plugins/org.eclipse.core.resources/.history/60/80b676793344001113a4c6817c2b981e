@@ -1,0 +1,14 @@
+package sub03;
+
+/*
+ * 날짜 : 2026/04/30
+ * 이름 : 허민재
+ * 내용 : Java 계산기 실습
+*/
+
+public class Calc {
+	// 싱글톤 객체
+	public static void main(String[] args) {
+		
+	}
+}
