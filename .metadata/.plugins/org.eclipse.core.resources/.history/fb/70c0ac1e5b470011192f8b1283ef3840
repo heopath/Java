@@ -1,0 +1,13 @@
+package sub4;
+
+public class Engineer extends Person{
+
+	public Engineer(String name, int age, String field) {
+		super(name, age);
+		this.field = field;
+	}
+
+	private String field;
+	
+	public
+}

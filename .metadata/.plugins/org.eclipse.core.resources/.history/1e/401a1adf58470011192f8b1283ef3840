@@ -1,0 +1,11 @@
+package sub4;
+
+public class Person {
+	String name;
+	int age;
+	
+	public void Person(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+}
