@@ -1,0 +1,11 @@
+package sub5;
+
+/*
+ * 날짜 : 2026/05/01
+ * 이름 : 허민재
+ * 내용 : Overriding 실습
+*/
+
+public class OverrideTest {
+	
+}
