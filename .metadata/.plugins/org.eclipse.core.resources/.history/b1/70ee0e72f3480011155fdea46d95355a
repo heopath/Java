@@ -1,0 +1,16 @@
+package sub8;
+
+public class SmartTV extends TV implements Internet {
+
+	@Override
+	public void connection() {
+		
+	}
+
+	@Override
+	public void surf() {
+		
+	}
+	
+	
+}

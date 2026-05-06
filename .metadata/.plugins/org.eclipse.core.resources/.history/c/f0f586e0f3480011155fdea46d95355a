@@ -1,0 +1,8 @@
+package sub8;
+
+public interface Computer {
+	
+	public void porcess();
+	public void save();
+	
+}
