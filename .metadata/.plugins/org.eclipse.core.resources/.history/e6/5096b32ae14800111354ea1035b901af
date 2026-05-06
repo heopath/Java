@@ -1,0 +1,7 @@
+package sub6;
+
+public class Animal {
+	public void Mvoe() {
+		System.out.println("Animal move...");
+	}
+}
