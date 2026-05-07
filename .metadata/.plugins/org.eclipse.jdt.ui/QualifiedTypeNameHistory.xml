@@ -8,4 +8,5 @@
     <fullyQualifiedTypeName name="sub4.InheritanceTest"/>
     <fullyQualifiedTypeName name="sub4.Person"/>
     <fullyQualifiedTypeName name="sub6.Animal"/>
+    <fullyQualifiedTypeName name="sub9.Outer.Inner"/>
 </qualifiedTypeNameHistroy>
