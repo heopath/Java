@@ -1,0 +1,42 @@
+package class1.sub4;
+
+public class Member {
+
+	private String name;
+	private String memberId;
+	private Book borrowedBook;
+	
+	public Member(String name, String memberId) {
+		this.name = name;
+		this.memberId = memberId;
+		this.borrowedBook = null;
+	}
+	
+	public void borrowBook(Book book) {
+		if(borrowedBook == null) {
+			book.borrowBook();
+			borrowedBook = book;	
+			
+			System.out.println(this.name + "회원이" + book.getTitle() + "도서를 대출");
+		}else {
+			System.out.println("이미 대출한 도서");
+		}
+	}
+	
+	public void returnBook(Book book) {
+		if(borrowedBook != null) {
+			book.returnBook();
+			borrowedBook = null;
+			
+			System.out.println(this.name + "회원이" + book.getTitle() + "도서를 반납");
+		}else {
+			System.out.println("대출 가능한 도서");
+		}
+	}
+	
+	public void getMemberInfo() {
+		System.out.println("이름 : " + this.name);
+		System.out.println("회원ID : " + this.name);
+		System.out.println("대출한 도서 : " + borrowedBook.getTitle());
+	}
+}

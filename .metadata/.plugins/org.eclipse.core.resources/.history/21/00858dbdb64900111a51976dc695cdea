@@ -1,0 +1,5 @@
+package class1.sub5;
+
+public class Main {
+
+}

@@ -6,7 +6,11 @@
     <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="sub4.InheritanceTest"/>
-    <fullyQualifiedTypeName name="sub4.Person"/>
     <fullyQualifiedTypeName name="sub6.Animal"/>
     <fullyQualifiedTypeName name="sub9.Outer.Inner"/>
+    <fullyQualifiedTypeName name="sub4.Person"/>
+    <fullyQualifiedTypeName name="javax.management.PersistentMBean"/>
+    <fullyQualifiedTypeName name="sub8.Person"/>
+    <fullyQualifiedTypeName name="class1.sub4.Book"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
