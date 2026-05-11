@@ -1,5 +1,8 @@
 package sub01;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 /*
  * 날짜 : 2026/05/11
  * 이름 : 허민재
@@ -66,6 +69,25 @@ public class ExceptionTest {
 		}
 		
 		// 일반 예외(컴파일 타임 발생)
-
+		
+		// Tiger tiger = new Tiger();// 명세적 방법
+		
+		try {
+			//클래스 객체 동적 생성
+			Class tigerClass = Class.forName("sub01.Tiger");
+			Constructor<?> constructor = tigerClass.getDeclaredConstructor();
+			Tiger tiger = (Tiger) constructor.newInstance();
+		
+			tiger.move();
+			tiger.hunt();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			System.out.println("예외처리 발생여부에 관계없이 마지막에 항상 처리되는 블록");
+		}
+		
+		
+		System.out.println("프로그램 정상 종료...");
 	}
 }

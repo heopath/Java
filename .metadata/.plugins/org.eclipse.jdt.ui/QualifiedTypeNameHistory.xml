@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.security.DomainCombiner"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
@@ -13,4 +12,8 @@
     <fullyQualifiedTypeName name="sub8.Person"/>
     <fullyQualifiedTypeName name="class1.sub4.Book"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>
