@@ -3,7 +3,7 @@ package sub05;
 import java.util.Random;
 
 /*
- * 날짜 : 2026/05/11
+ * 날짜 : 2026/05/12
  * 이름 : 허민재
  * 내용 : JAVA Math 클래스 실습
  */
