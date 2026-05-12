@@ -18,6 +18,5 @@ public class GenericTest {
 		bananabox.setFruit(banana);
 		System.out.println(bananabox.getFruit());
 		
-		
 	}
 }
