@@ -9,7 +9,7 @@ import java.util.TreeSet;
 /*
  * 날짜 : 2026/05/12
  * 이름 : 허민재
- * 내용 : JAVA Set, Map 실습
+ * 내용 : JAVA Set 실습
  */
 public class SetTest {
 	public static void main(String[] args) {

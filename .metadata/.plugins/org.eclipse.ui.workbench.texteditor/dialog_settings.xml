@@ -2,7 +2,9 @@
 <section name="Workbench">
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="set"/>
 			<item value="ordinal"/>
 			<item value="wb"/>
 		</list>
