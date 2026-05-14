@@ -1,6 +1,0 @@
-package sub8;
-
-// 인터페이스: 오직 추상 메서드만 갖는 구현체
-public interface RemoteControl {
-	
-}

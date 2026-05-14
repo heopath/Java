@@ -1,7 +1,0 @@
-package sub6;
-
-public class Tiger extends Animal{
-	private void move() {
-		System.out.println("Tiger run...");
-	}
-}

@@ -2,11 +2,15 @@
 <section name="Workbench">
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="Set"/>
 		<list key="findhistory">
 			<item value="set"/>
 			<item value="ordinal"/>
 			<item value="wb"/>
 		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="243"/>
+		<item key="DIALOG_Y_ORIGIN" value="391"/>
 	</section>
 </section>
