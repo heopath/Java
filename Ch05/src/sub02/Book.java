@@ -24,25 +24,26 @@ public class Book {
 	private String title;
 	private String author;
 	private int copies;
-	
+
 	public Book(String title, String author, int copies) {
 		this.title = title;
 		this.author = author;
 		this.copies = copies;
 	}
-	
+
 	public boolean borrowBook() {
 		if(this.copies >= 1) {
 			this.copies -= 1;
 			return true;
-		}else
+		} else {
 			return false;
+		}
 	}
-	
+
 	public void returnBook() {
 		this.copies += 1;
 	}
-	
+
 	public void show() {
 		System.out.println("책 제목 : " + this.title);
 		System.out.println("저자 이름 : " + this.author);

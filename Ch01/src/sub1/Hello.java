@@ -8,14 +8,14 @@ package sub1;
 
 //ctrl + 확대
 public class Hello {
-	
+
 	//main - ctrl + spacebar
 	public static void main(String[] args) {
-		
+
 		// 모든 프로그래밍 언어의 상징적인 입문 문자열
-		//sysout + ctrl + spacebar  
+		//sysout + ctrl + spacebar
 		System.out.println("Hello World!");
 		System.out.println("Hello Java!");
-		
+
 	}
 }

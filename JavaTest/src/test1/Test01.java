@@ -10,7 +10,7 @@ public class Test01 {
 		boolean var7 = false;
 		String var8 = "hello";
 		Object var9 = null;
-		
+
 		System.out.println("var1 : "+var1);
 		System.out.println("var2 : "+var2);
 		System.out.println("var3 : "+var3);

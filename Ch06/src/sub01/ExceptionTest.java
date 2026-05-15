@@ -1,7 +1,6 @@
 package sub01;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 /*
  * 날짜 : 2026/05/11
@@ -43,23 +42,23 @@ public class ExceptionTest {
 		} catch (ArrayIndexOutOfBoundsException e) { // 예외가 발생했을때 처리하는 코드 블록
 			System.out.println("예외발생! - " + e.getMessage());
 		}
-		
+
 
 		// 예외상황3 - 객체 생성하지 않고 메서드를 호출
 		Animal animal = null;
-		
+
 		try {
-			animal.move();	
+			animal.move();
 		}catch (NullPointerException e) {
 			System.out.println("예외발생 ! - " + e.getMessage());
 		}
-		
-		
+
+
 		// 예외상황4 - 잘못된 캐스팅(형변환, 다운캐스팅)
 		Animal a1 = new Tiger();
 		Animal a2 = new Eagle();
 		Animal a3 = new Shark();
-		
+
 		try {
 		Tiger tiger = (Tiger) a1;
 		Eagle eagle = (Eagle) a2;
@@ -67,27 +66,27 @@ public class ExceptionTest {
 		}catch (ClassCastException e) {
 			System.out.println("예외발생 ! - " + e.getMessage());
 		}
-		
+
 		// 일반 예외(컴파일 타임 발생)
-		
+
 		// Tiger tiger = new Tiger();// 명세적 방법
-		
+
 		try {
 			//클래스 객체 동적 생성
 			Class tigerClass = Class.forName("sub01.Tiger");
 			Constructor<?> constructor = tigerClass.getDeclaredConstructor();
 			Tiger tiger = (Tiger) constructor.newInstance();
-		
+
 			tiger.move();
 			tiger.hunt();
-			
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			System.out.println("예외처리 발생여부에 관계없이 마지막에 항상 처리되는 블록");
 		}
-		
-		
+
+
 		System.out.println("프로그램 정상 종료...");
 	}
 }

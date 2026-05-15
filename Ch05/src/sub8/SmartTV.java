@@ -21,5 +21,5 @@ public class SmartTV extends TV implements Internet, Computer {
 	public void save() {
 		System.out.println("SmartTV saved...");
 	}
-	
+
 }

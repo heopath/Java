@@ -5,26 +5,27 @@ public class StockAccount extends Account { // StockAccount is(has) Account 명�
 	private String company;
 	private int amount;
 	private int price;
-	
+
 	public StockAccount(String bank, String id, String name, int balance, String company, int amount, int price) {
 		super(bank, id, name, balance);
 		this.company = company;
 		this.amount = amount;
 		this.price = price;
-	} 
-	
+	}
+
 	public void buy(int amount ,int price) {
 		this.amount += amount;
 		this.balance -= amount * price;
 		this.price = price;
 	}
-	
+
 	public void sell(int amount ,int price) {
 		this.amount -= amount;
 		this.balance += amount * price;
 		this.price = price;
 	}
-	
+
+	@Override
 	public void show() {
 		System.out.println("증권사 : " + this.bank);
 		System.out.println("증권계좌 : " + this.id);
@@ -33,7 +34,7 @@ public class StockAccount extends Account { // StockAccount is(has) Account 명�
 		System.out.println("주식명 : " + this.company);
 		System.out.println("수량 : " + this.amount);
 		System.out.println("가격 : " + this.price);
-		
+
 	}
 
 }

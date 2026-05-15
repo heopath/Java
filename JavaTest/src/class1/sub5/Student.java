@@ -1,7 +1,5 @@
 package class1.sub5;
 
-import java.util.Arrays;
-
 public class Student {
 	private String name;
 	private String studentId;

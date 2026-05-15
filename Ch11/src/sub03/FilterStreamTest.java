@@ -10,23 +10,23 @@ import java.util.List;
  */
 public class FilterStreamTest {
 	public static void main(String[] args) {
-		
+
 		// 불변 리스트 생성
 		List<Integer> numbers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3);
-		
+
 		// numbers.add(8); // 불변리스트 이므로 새로운 값 추가 안됨, 실행 예외 발생!
-		
+
 		System.out.println(numbers);
-		
+
 		// 중복제거
 		numbers.stream().distinct().forEach( num -> System.out.print(num + ", "));
 		System.out.print("\n");
-		
+
 		// 5보다 큰 데이터 필터링
 		numbers
 		.stream()
 		.filter(num -> {
-			
+
 			if(num >= 5) {
 				return false;
 			}else {
@@ -34,7 +34,7 @@ public class FilterStreamTest {
 			}
 		})
 		.forEach(num -> System.out.println(num));
-		
+
 		// 중복제거, 짝수 데이터 필터링, 내림차순 정렬
 		numbers
 		.stream()
@@ -47,9 +47,9 @@ public class FilterStreamTest {
 			}
 		}) // num -> (num % 2 == 0)
 		.sorted(Collections.reverseOrder())
-		.forEach(num -> 
+		.forEach(num ->
 			System.out.print(num + ", "));
-		
+
 		System.out.println("\n");
 	}
 }

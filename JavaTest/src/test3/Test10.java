@@ -9,16 +9,16 @@ class Item {
 		this.name = name;
 		this.price = price;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
-	
+
 	public int getPrice() {
 		return price;
 	}
-	
-	
+
+
 }
 
 // 장바구니 클래스
@@ -64,16 +64,16 @@ class Cart {
 public class Test10 {
 	public static void main(String[] args) {
 		Cart myCart = new Cart();
-		
+
 		myCart.addItem(new Item("블루투스", 45000));
-		
+
 		Item[] itemList = {
-				new Item("키보드", 32000), 
-				new Item("마우스", 15000), 
-				new Item("이어폰", 25000) 
+				new Item("키보드", 32000),
+				new Item("마우스", 15000),
+				new Item("이어폰", 25000)
 				};
 		myCart.addItem(itemList);
-		
+
 		myCart.showItemAll();
 	}
 }

@@ -8,7 +8,7 @@ class CPU {
 		this.name = name;
 		this.hz = hz;
 	}
-	
+
 	public String getInfo() {
 		return name + "(" + hz + "GHz)";
 	}
@@ -17,7 +17,7 @@ class CPU {
 class RAM {
 	private String name;
 	private int capacity;
-	
+
 	public RAM (String name, int capacity) {
 		this.name = name;
 		this.capacity = capacity;
@@ -45,11 +45,11 @@ class GPU {
 class SSD {
 	private String name;
 	private int capacity;
-	
+
 	public SSD (String name, int capacity) {
 		this.name = name;
 		this.capacity = capacity;
-	}	
+	}
 
 	public String getInfo() {
 		return name + " " + capacity + "GB";
@@ -62,7 +62,7 @@ class Computer {
 	private RAM ram;
 	private GPU gpu;
 	private SSD ssd;
-	
+
 	public Computer(String brand, CPU cpu, RAM ram, GPU gpu, SSD ssd ) {
 		this.brand = brand;
 		this.cpu = cpu;

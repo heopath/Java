@@ -3,12 +3,12 @@ package test3;
 class King {
 	private String name;
 	private int year;
-	
+
 	public King(int year){
 		this("정조"); // 문자열 매개변수 생성자 호출
 		this.year = year;
 		}
-	
+
 	public King(String name) {
 		this.name = name;
 	}
@@ -17,7 +17,7 @@ class King {
 		this.name = name;
 		this.year = year;
 	}
-	
+
 	public void show() {
 		System.out.println("----------------");
 		System.out.println("name : " + name);

@@ -1,9 +1,9 @@
 package sub4;
 
 public class Engineer extends Person{
-	
+
 	public String field;
-	
+
 	public Engineer(String name, int age, String field) {
 		super(name, age);
 		this.field = field;
@@ -11,4 +11,3 @@ public class Engineer extends Person{
 }
 
 
-	

@@ -1,7 +1,7 @@
 package test4;
 
 class Computer {
-	
+
 	private String model;
 
 	public Computer(String model) {
@@ -14,11 +14,11 @@ class Computer {
 
 	static class CPU {
 		String processor;
-		
+
 		public CPU(String processor) {
 			this.processor = processor;
 		}
-		
+
 		public void info() {
 			System.out.println("CPU: " + processor);
 		}
@@ -26,11 +26,11 @@ class Computer {
 
 	static class RAM {
 		int size;
-		
+
 		public RAM(int size) {
 			this.size = size;
 		}
-		
+
 		public void info() {
 			System.out.println("RAM: " + size + "GB");
 		}
@@ -38,11 +38,11 @@ class Computer {
 
 	static class SSD {
 		int storage;
-		
+
 		public SSD(int storage) {
 			this.storage = storage;
 		}
-		
+
 		public void info() {
 			System.out.println("SSD: " + storage + "GB");
 		}
@@ -54,7 +54,7 @@ public class Test10 {
 		Computer.CPU cpu = new Computer.CPU("Intel i7");
 		Computer.RAM ram = new Computer.RAM(64);
 		Computer.SSD ssd = new Computer.SSD(1024);
-		
+
 		cpu.info();
 		ram.info();
 		ssd.info();

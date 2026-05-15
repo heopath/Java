@@ -1,7 +1,5 @@
 package sub6;
 
-import sub03.Calc;
-
 public class Dog extends Pet {
 	@Override
 	public void makeSound() {

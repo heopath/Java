@@ -6,10 +6,10 @@ package sub01;
  */
 public class GenericTest {
 	public static void main(String[] args) {
-		
+
 		Apple apple = new Apple("한국", 5000);
 		Banana banana = new Banana("일본", 3000);
-		
+
 		FruitBox<Apple> applebox = new FruitBox<>();
 		applebox.setFruit(apple);
 		System.out.println(applebox.getFruit());
@@ -17,6 +17,6 @@ public class GenericTest {
 		FruitBox<Banana> bananabox = new FruitBox<>();
 		bananabox.setFruit(banana);
 		System.out.println(bananabox.getFruit());
-		
+
 	}
 }

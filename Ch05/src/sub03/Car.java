@@ -18,11 +18,11 @@ public class Car {
 	public void speedUp(int speed) {
 		this.speed = speed;
 	}
-	
+
 	public static int totalCar() { // 클래스 메서드(정적메서드)
 		return count;
 	}
-	
+
 	public void show() {
 		System.out.println("차량명 : " + this.name);
 		System.out.println("현재속도 : " + this.speed);

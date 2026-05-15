@@ -34,14 +34,14 @@ public class ObjectTest {
 		System.out.println("a2 해시값 : " + a2.hashCode());
 		System.out.println("a3 해시값 : " + a3.hashCode());
 		System.out.println("a4 해시값 : " + a4.hashCode());
-		
+
 		// 객체 인스턴스 비교
 		if (a1.equals(a2)) {
 			System.out.println("a1, a2가 가리키는 객체(인스턴스)가 같다");
 		} else {
 			System.out.println("a1, a2가 가리키는 객체(인스턴스)가 다르다");
 		}
-		
+
 		if (a3.equals(a4)) {
 			System.out.println("a3, a4가 가리키는 객체(인스턴스)가 같다");
 		} else {

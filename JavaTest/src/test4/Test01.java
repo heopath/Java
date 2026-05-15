@@ -17,12 +17,13 @@ class Person {
 
 class Student extends Person{
 	private int studentId;
-	
+
 	public Student(int studentId, String name, int age) {
 		super(name, age);
 		this.studentId = studentId;
 	}
 
+	@Override
 	public void hello() {
 		System.out.println("학번 : " + studentId);
 		super.hello();

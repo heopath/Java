@@ -7,7 +7,7 @@ class Student {
 	private int grade;
 
 	public Student(String studentName, String major, int grade) {
-		this.studentId++;
+		Student.studentId++;
 		this.studentName = studentName;
 		this.major = major;
 		this.grade = grade;
@@ -25,7 +25,7 @@ class Student {
 public class Test04 {
 	public static void main(String[] args) {
 		Student.studentId = 20201000;
-		
+
 		Student kim = new Student("김유신", "국문과", 1);
 		kim.studentInfo();
 		Student lee = new Student("이순신", "경제학과", 1);

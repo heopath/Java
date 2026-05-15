@@ -10,7 +10,7 @@ public class RemoteLG implements RemoteControl {
 
 	@Override
 	public void powerOff() {
-		System.out.println("LG - powerOff...");	
+		System.out.println("LG - powerOff...");
 	}
 
 	@Override

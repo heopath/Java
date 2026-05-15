@@ -1,7 +1,6 @@
 package test5;
 
 import java.util.ArrayList;
-import java.util.List;
 
 class Member {
 String id;

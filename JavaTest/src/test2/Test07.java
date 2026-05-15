@@ -11,9 +11,9 @@ public class Test07 {
 
 	// 최대공약수 메서드 정의
 	public static int gcd(int a, int b) {
-		
+
 		int temp = 0;
-		
+
 		// a, b 둘 중 작은 수 temp 저장
 		if (a < b) {
 			temp = a;

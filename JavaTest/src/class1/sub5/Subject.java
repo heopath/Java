@@ -4,13 +4,13 @@ public class Subject {
 	private String subName;
 	private Student[] students;
 	private int studentCount;
-	
+
 	public Subject(String subName) {
 		this.subName = subName;
 		students = new Student[10];
 		studentCount = 0;
 	}
-	
+
 	public void addStudent(Student student) {
 		// students[studentCount++] = student;
 		if (studentCount < students.length) {
@@ -18,20 +18,20 @@ public class Subject {
 			studentCount++;
 		}else {
 			System.out.println("수강인원이 가득찼습니다.");
-		}		
+		}
 
 	}
-	
+
 	public void printSubjectInfo() {
 		System.out.println("과목 이름 : " + this.subName);
-		
+
 		/*
 		 * for(Student student : students) {
 		 *  System.out.println(student.getName() +
 		 * ", "); }
-		 * 
+		 *
 		 */
-		
+
 		if(studentCount == 0) {
 			System.out.println("수강인원 없음");
 		} else {
@@ -39,9 +39,9 @@ public class Subject {
 				System.out.println(students[i].getName());
 			}
 		}
-		
+
 	}
-	
+
 	public String getSubName() {
 		return this.subName;
 	}

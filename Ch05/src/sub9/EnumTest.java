@@ -1,29 +1,29 @@
 package sub9;
 
-/* 
+/*
  *  날짜 : 2026/05/07
  *  이름 : 허민재
  *  내용 : JAVA enum(열거상수) 실습
  */
 
 enum Day {
-	MONDAY, 
-	TUESDAY, 
-	WEDNESDAY, 
-	THURSDAY, 
-	FRIDAY, 
-	SATURDAY, 
+	MONDAY,
+	TUESDAY,
+	WEDNESDAY,
+	THURSDAY,
+	FRIDAY,
+	SATURDAY,
 	SUNDAY
 }
 
 public class EnumTest {
 	public static void main(String[] args) {
-		
+
 		// 열거 상수 객체 생성
 		Day today = Day.THURSDAY;
-		
+
 		switch(today) {
-		
+
 		case MONDAY:
 			System.out.println("월요일 입니다.");
 			break;

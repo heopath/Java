@@ -9,7 +9,7 @@ interface Seller {
 }
 
 class Customer implements Buyer, Seller {
-	
+
 	@Override
 	public void sell() {
 		System.out.println("판매 합니다.");

@@ -10,7 +10,7 @@ class Movie {
 		this.director = director;
 		this.rating = rating;
 	}
-	
+
 	public void show() {
 		System.out.println("--------------------");
 		System.out.println("영화제목: " + title);
@@ -22,13 +22,13 @@ class Movie {
 public class Test07 {
 	public static void main(String[] args) {
 
-		Movie[] movies = { 
-				new Movie("터미네이터", "제임스 카메론", 8.8), 
+		Movie[] movies = {
+				new Movie("터미네이터", "제임스 카메론", 8.8),
 				new Movie("글래디에이터", "리들리 스콧", 9.5),
-				new Movie("쥬라기공원", "스티븐 스필버그", 9.2), 
-				new Movie("인터스텔라", "크리스토퍼 놀란", 8.9) 
+				new Movie("쥬라기공원", "스티븐 스필버그", 9.2),
+				new Movie("인터스텔라", "크리스토퍼 놀란", 8.9)
 		};
-		
+
 		for (Movie m : movies) {
 			m.show();
 		}

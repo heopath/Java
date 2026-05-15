@@ -7,16 +7,16 @@ public class Test01 {
 	public static void main(String[] args) {
 		int answer = (int) (Math.random() * 10) + 1;
 		int input = 0, count = 0;
-		
+
 		do {
 			count++;
 			System.out.println("------------------------");
 			System.out.print("1 ~ 10 사이 값 입력 : ");
-			
+
 			try {
 				Scanner sc = new Scanner(System.in);
 				input = sc.nextInt();
-			
+
 				if (input < 0) {
 					throw new Exception("음수는 입력할 수 없습니다.");
 				}

@@ -19,7 +19,7 @@ class Apple {
 class Banana {
 	private String country;
 	private int price;
-	
+
 	public Banana(String country, int price) {
 		this.country = country;
 		this.price = price;
@@ -34,7 +34,7 @@ class Banana {
 class Grape {
 	private String country;
 	private int price;
-	
+
 	public Grape(String country, int price) {
 		this.country = country;
 		this.price = price;

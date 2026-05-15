@@ -5,7 +5,7 @@ package sub7;
 public abstract class Animal {
 	public void move() {
 		String str = "";
-		
+
 		System.out.println("Animal move...");
 	}
 	// 추상 메서드 : 자식 클래스에서 재정의하는 메서드, 문법적으로 반드시 구현하게 강제

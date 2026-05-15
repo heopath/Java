@@ -46,7 +46,7 @@ public class Test06 {
 	public static void main(String[] args) {
 
 		Vehicle[] vehicles = { new Bus("버스", 60), new Taxi("택시", 80) };
-		
+
 		for (Vehicle v : vehicles) {
 			v.start();
 			v.run();

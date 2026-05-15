@@ -5,7 +5,7 @@ public class Test02 {
 		Scanner sc = new Scanner(System.in);
 		int year, birth = 0;
 		String name;
-		
+
 		System.out.print("올해 년도 입력 : ");
 		year = sc.nextInt();
 		System.out.print("태어난 년도 입력 : ");

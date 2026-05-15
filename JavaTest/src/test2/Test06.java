@@ -25,11 +25,11 @@ public class Test06 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
-		
+
+
 		int a = input(sc, "a");
 		int b = input(sc, "b");
-		
+
 		int output = add(a, b);
 		result(output);
 	}

@@ -3,7 +3,7 @@ package sub8;
 public class PowerCable implements Socket {
 
 	private Bulb bulb;
-	
+
 	public PowerCable(Bulb bulb) {
 		this.bulb = bulb;
 	}

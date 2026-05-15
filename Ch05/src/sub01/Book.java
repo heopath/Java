@@ -24,19 +24,20 @@ public class Book {
 	String title;
 	String author;
 	int copies;
-	
+
 	public boolean borrowBook() {
 		if(this.copies >= 1) {
 			this.copies -= 1;
 			return true;
-		}else
+		} else {
 			return false;
+		}
 	}
-	
+
 	public void returnBook() {
 		this.copies += 1;
 	}
-	
+
 	public void show() {
 		System.out.println("책 제목 : " + this.title);
 		System.out.println("저자 이름 : " + this.author);

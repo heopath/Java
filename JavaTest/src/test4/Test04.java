@@ -38,7 +38,7 @@ public class Test04 {
 	public static void main(String[] args) {
 		Animal a1 = new Dog("순돌이"); // 업캐스팅(다형성)
 		Animal a2 = new Cat("야옹이");
-		
+
 		if (a1 instanceof Dog) {
 			Dog d = (Dog) a1; // 다운캐스팅
 			d.sound();

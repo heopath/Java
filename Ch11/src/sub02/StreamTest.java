@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 class Person {
 	private String name;
 	private int age;
-	
+
 	public Person(String name, int age) {
 		this.name = name;
 		this.age = age;
@@ -23,34 +23,34 @@ class Person {
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + "]";
 	}
-	
+
 }
 public class StreamTest {
 	public static void main(String[] args) {
-		
+
 		List<Person> persons = new ArrayList<>();
-		
+
 		persons.add(new Person("김유신", 25));
 		persons.add(new Person("김춘추", 35));
 		persons.add(new Person("강감찬", 45));
 		persons.add(new Person("장보고", 55));
-		
+
 		// 리스트 출력(외부 반복자)
 		for(Person person : persons) {
 			System.out.println(person);
 		}
-		
+
 		// 스트림 출력(내부 반복자)
 		Stream<Person> personStream = persons.stream(); // 컬렉션에 스트림 연결
-		
+
 		personStream.forEach( person -> {
 			System.out.println(person);
 		});
-		
+
 //		personStream.forEach(System.out::println);
-		
+
 		personStream.close();
-		
-		
+
+
 	}
 }

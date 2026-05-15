@@ -2,7 +2,7 @@ package test4;
 
 interface Payment {
 	final static double TAX_RATE = 0.1;
-	
+
 	public void pay(int amount);
 	public void cancel(int amount); // 메서드 시그니처(int amount)
 
@@ -49,10 +49,10 @@ class Shop {
 public class Test08 {
 	public static void main(String[] args) {
         Shop shop = new Shop();
-        
+
         Payment card = new CardPayment();
         Payment cash =  new CashPayment();
-        
+
         shop.processPayment(card, 15000);
         shop.processPayment(cash, 5000);
     }

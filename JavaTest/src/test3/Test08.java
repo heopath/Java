@@ -4,9 +4,9 @@ class Product {
 	private String name;
 	private int stock;
 	private int price;
-	
+
 	public Product() {}
-	
+
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -16,7 +16,7 @@ class Product {
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	
+
 	public void show() {
 		System.out.println("------------------");
 		System.out.println("제품명 : " + name);

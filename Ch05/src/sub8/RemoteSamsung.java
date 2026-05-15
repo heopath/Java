@@ -9,7 +9,7 @@ public class RemoteSamsung implements RemoteControl {
 
 	@Override
 	public void powerOff() {
-		System.out.println("Samsung - powerOff...");	
+		System.out.println("Samsung - powerOff...");
 	}
 
 	@Override

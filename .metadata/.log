@@ -1250,3 +1250,591 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2026-05-15 09:00:40.870 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-05-15 09:00:43.778
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-05-15 09:00:47.450
+!MESSAGE Logback config file: C:\Users\GGG\Desktop\workspace\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-05-15 09:00:54.219
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\GGG'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.debug 4 125 2026-05-15 09:56:06.876
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Breakpoint marker does not exist: Marker [on: /Ch04/src/sub2/MethodTest.java, not found]
+	at org.eclipse.debug.core.model.Breakpoint.ensureMarker(Breakpoint.java:309)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.getTypeName(JavaBreakpoint.java:927)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.lambda$2(JDIDebugTarget.java:1350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.supportsResource(JDIDebugTarget.java:1389)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.supportsBreakpoint(JDIDebugTarget.java:1350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.breakpointRemoved(JDIDebugTarget.java:1630)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.run(BreakpointManager.java:1030)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.notify(BreakpointManager.java:1054)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:962)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:509)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointManagerVisitor.update(BreakpointManager.java:758)
+	at org.eclipse.debug.internal.core.BreakpointManager.resourceChanged(BreakpointManager.java:695)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:342)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:331)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:185)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:458)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:212)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2026-05-15 09:56:06.876
+!MESSAGE Breakpoint marker does not exist: Marker [on: /Ch04/src/sub2/MethodTest.java, not found]
+
+!ENTRY org.eclipse.jdt.debug 4 125 2026-05-15 09:56:06.877
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Breakpoint marker does not exist: Marker [on: /Ch05/src/sub03/Car.java, not found]
+	at org.eclipse.debug.core.model.Breakpoint.ensureMarker(Breakpoint.java:309)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.getTypeName(JavaBreakpoint.java:927)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.lambda$2(JDIDebugTarget.java:1350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.supportsResource(JDIDebugTarget.java:1389)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.supportsBreakpoint(JDIDebugTarget.java:1350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.breakpointRemoved(JDIDebugTarget.java:1630)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.run(BreakpointManager.java:1030)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.notify(BreakpointManager.java:1054)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:962)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:509)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointManagerVisitor.update(BreakpointManager.java:758)
+	at org.eclipse.debug.internal.core.BreakpointManager.resourceChanged(BreakpointManager.java:695)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:342)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:331)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:185)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:458)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:212)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2026-05-15 09:56:06.877
+!MESSAGE Breakpoint marker does not exist: Marker [on: /Ch05/src/sub03/Car.java, not found]
+
+!ENTRY org.eclipse.jdt.debug 4 125 2026-05-15 09:56:06.878
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Breakpoint marker does not exist: Marker [on: /Ch05/src/sub4/InheritanceTest.java, not found]
+	at org.eclipse.debug.core.model.Breakpoint.ensureMarker(Breakpoint.java:309)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.getTypeName(JavaBreakpoint.java:927)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.lambda$2(JDIDebugTarget.java:1350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.supportsResource(JDIDebugTarget.java:1389)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.supportsBreakpoint(JDIDebugTarget.java:1350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.breakpointRemoved(JDIDebugTarget.java:1630)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.run(BreakpointManager.java:1030)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.notify(BreakpointManager.java:1054)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:962)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:509)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointManagerVisitor.update(BreakpointManager.java:758)
+	at org.eclipse.debug.internal.core.BreakpointManager.resourceChanged(BreakpointManager.java:695)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:342)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:331)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:185)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:458)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:212)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2026-05-15 09:56:06.878
+!MESSAGE Breakpoint marker does not exist: Marker [on: /Ch05/src/sub4/InheritanceTest.java, not found]
+
+!ENTRY org.eclipse.jdt.debug 4 125 2026-05-15 09:56:06.879
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Breakpoint marker does not exist: Marker [on: /JavaTest/src/test5/Test06.java, not found]
+	at org.eclipse.debug.core.model.Breakpoint.ensureMarker(Breakpoint.java:309)
+	at org.eclipse.jdt.internal.debug.core.breakpoints.JavaBreakpoint.getTypeName(JavaBreakpoint.java:927)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.lambda$2(JDIDebugTarget.java:1350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.supportsResource(JDIDebugTarget.java:1389)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.supportsBreakpoint(JDIDebugTarget.java:1350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.breakpointRemoved(JDIDebugTarget.java:1630)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.run(BreakpointManager.java:1030)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointNotifier.notify(BreakpointManager.java:1054)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:962)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:509)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointManagerVisitor.update(BreakpointManager.java:758)
+	at org.eclipse.debug.internal.core.BreakpointManager.resourceChanged(BreakpointManager.java:695)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:342)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:331)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:185)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:458)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:212)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5012 2026-05-15 09:56:06.879
+!MESSAGE Breakpoint marker does not exist: Marker [on: /JavaTest/src/test5/Test06.java, not found]
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-05-15 09:56:41.718
+!MESSAGE Error occurred while deleting: /JavaTest/bin/test4
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:839)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:179)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:220)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Could not delete '/JavaTest/bin/test4'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:434)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:373)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:832)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1917)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:179)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:220)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: Could not delete: C:\Users\GGG\Desktop\workspace\Java\JavaTest\bin\test4\Test09.class.
+java.nio.file.FileSystemException: C:\Users\GGG\Desktop\workspace\Java\JavaTest\bin\test4\Test09.class: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2026-05-15 09:56:41.719
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2026-05-15 09:56:41.719
+!MESSAGE Could not delete '/JavaTest/bin/test4'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:434)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:373)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:832)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1917)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:826)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:179)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:104)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:314)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:220)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1109)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:299)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:355)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:449)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:452)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:564)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:512)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:594)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:208)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:309)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Problems encountered while deleting files.
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: Could not delete: C:\Users\GGG\Desktop\workspace\Java\JavaTest\bin\test4\Test09.class.
+java.nio.file.FileSystemException: C:\Users\GGG\Desktop\workspace\Java\JavaTest\bin\test4\Test09.class: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+Contains: OK
+Contains: OK
+Contains: OK
+Contains: OK
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2026-05-15 09:56:41.719
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2026-05-15 09:56:41.720
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2026-05-15 09:56:41.720
+!MESSAGE Could not delete: C:\Users\GGG\Desktop\workspace\Java\JavaTest\bin\test4\Test09.class.
+!STACK 0
+java.nio.file.FileSystemException: C:\Users\GGG\Desktop\workspace\Java\JavaTest\bin\test4\Test09.class: 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.implDelete(WindowsFileSystemProvider.java:273)
+	at java.base/sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(AbstractFileSystemProvider.java:110)
+	at java.base/java.nio.file.Files.deleteIfExists(Files.java:1192)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.internalDelete(LocalFile.java:312)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.lambda$3(LocalFile.java:335)
+	at java.base/java.util.concurrent.ForkJoinTask$AdaptedCallable.exec(ForkJoinTask.java:1456)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+!SUBENTRY 5 unknown 0 0 2026-05-15 09:56:41.720
+!MESSAGE OK
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.284
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.285
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.285
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.285
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.286
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.286
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.286
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.286
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.287
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.287
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.288
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.288
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.335
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.ui.edit.text.toggleBlockSelectionMode
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.336
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.ui.edit.text.toMultiSelection
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.336
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.jst.jsp.ui.refactor.rename
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:07.336
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.jst.jsp.ui.refactor.move
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.122
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.123
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.123
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.123
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.124
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.124
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.124
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.124
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.125
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.125
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.125
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:00:15.125
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.189
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.189
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.189
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.189
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.190
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.190
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.190
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.191
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.191
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.191
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.192
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.192
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.239
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.ui.edit.text.toggleBlockSelectionMode
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.239
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.ui.edit.text.toMultiSelection
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.239
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.jst.jsp.ui.refactor.rename
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:00.240
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.jst.jsp.ui.refactor.move
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:05.164
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.ui.edit.text.toggleBlockSelectionMode
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:05.164
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.ui.edit.text.toMultiSelection
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:05.267
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.nextSibling
+
+!ENTRY org.eclipse.ui 4 4 2026-05-15 10:06:05.268
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.previousSibling
+
+!ENTRY org.eclipse.jdt.core 4 4 2026-05-15 10:13:08.373
+!MESSAGE Could not retrieve superclass
+!STACK 0
+org.eclipse.jdt.internal.compiler.problem.AbortCompilation: Pb(347) The type com.google.protobuf.GeneratedMessageV3 cannot be resolved. It is indirectly referenced from required type com.mysql.cj.x.protobuf.MysqlxSession.Reset
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:159)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemHandler.handle(ProblemHandler.java:226)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.handle(ProblemReporter.java:2659)
+	at org.eclipse.jdt.internal.compiler.problem.ProblemReporter.isClassPathCorrect(ProblemReporter.java:5012)
+	at org.eclipse.jdt.internal.compiler.lookup.UnresolvedReferenceBinding.resolve(UnresolvedReferenceBinding.java:125)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.resolveType(BinaryTypeBinding.java:245)
+	at org.eclipse.jdt.internal.compiler.lookup.BinaryTypeBinding.superclass(BinaryTypeBinding.java:2398)
+	at org.eclipse.jdt.core.dom.TypeBinding.getSuperclass(TypeBinding.java:858)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.isInherited(UnresolvedElementsBaseSubProcessor.java:1063)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.addSimilarTypeProposals(UnresolvedElementsBaseSubProcessor.java:1031)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsBaseSubProcessor.collectTypeProposals(UnresolvedElementsBaseSubProcessor.java:791)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:143)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:450)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:370)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.getJavaAnnotationFixes(ProblemHover.java:115)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.computeCompletionProposals(ProblemHover.java:89)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover$ProblemInfo.<init>(ProblemHover.java:74)
+	at org.eclipse.jdt.internal.ui.text.java.hover.ProblemHover.createAnnotationInfo(ProblemHover.java:178)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover.getHoverInfo2(AbstractAnnotationHover.java:957)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)

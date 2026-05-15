@@ -5,14 +5,14 @@ public class MovieTicket {
 	private String screenTime;
 	private String seatNumber;
 	private boolean isBooked;
-	
+
 	public MovieTicket(String movieTitle, String screenTime, String seatNumber) {
 		this.movieTitle = movieTitle;
 		this.screenTime = screenTime;
 		this.seatNumber = seatNumber;
 		this.isBooked = false;
 	}
-	
+
 	public void bookTicket() {
 		if(!isBooked) {
 			isBooked = true;
@@ -21,7 +21,7 @@ public class MovieTicket {
 			System.out.println("이미 예매됨");
 		}
 	}
-	
+
 	public void cancelBook() {
 		if(isBooked) {
 			isBooked = false;
@@ -30,7 +30,7 @@ public class MovieTicket {
 			System.out.println("아직 예매 안됨");
 		}
 	}
-	
+
 	public void printTicketInfo() {
 		System.out.println("영화제목 : " +  this.movieTitle);
 		System.out.println("상영시간 : " +  this.screenTime);
